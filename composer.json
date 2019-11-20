@@ -1,0 +1,16 @@
+{
+  "name": "orbiter/satellite-event-queue",
+  "license": "MIT",
+  "description": "",
+  "require": {
+    "php": ">=7.0",
+    "orbiter/satellite": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Satellite\\EventQueue\\": "src"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
